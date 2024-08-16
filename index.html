@@ -643,6 +643,43 @@ a:hover{
 .copy-text p{
 	color: #fff;
 }
+		.columns-container {
+            display: flex;
+            gap: 20px;
+	    margin: 50px;
+	    padding: 5px;
+        }
+
+        .column-item {
+            width: 200px;
+            height: 300px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        .column-image {
+            width: 100%;
+            height: 70%;
+	    object-fit: cover;
+        }
+
+        .column-title {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        .column-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+	    span{
+		    color: red;
+		  
+	    }
 	</style>
 	<body data-spy="scroll" data-offset="80">
 			<div class="preloader">
@@ -905,54 +942,8 @@ a:hover{
 		</section>
 			
 			
-			<section id="personal-interest" class="gray_bg section_padding">
-				
-
-    <style>
-        
-        .columns-container {
-            display: flex;
-            gap: 20px;
-	    margin: 50px;
-	    padding: 5px;
-        }
-
-        .column-item {
-            width: 200px;
-            height: 300px;
-            overflow: hidden;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease;
-            background-color: #fff;
-            text-align: center;
-        }
-
-        .column-image {
-            width: 100%;
-            height: 70%;
-            object-fit: cover;
-        }
-
-        .column-title {
-            margin: 10px 0;
-            font-size: 18px;
-        }
-
-        .column-item:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-        }
-	    span{
-		    color: red;
-		  
-	    }
-	    
-    </style>
-</head>
-<body>
-	<section id="personal interest">
-		    <center><h2>PERSONAL<span> INTEREST</span></h2></center><br><br>
+			<section id="personal interest" class="gray_bg section_padding">
+        <center><h2>PERSONAL<span> INTEREST</span></h2></center><br><br>
     <div class="columns-container">
 			<div class="column-item">
             <img src="https://tse4.mm.bing.net/th?id=OIP.n45ms4dYKlNL7D2jFUmfuAHaEO&pid=Api&P=0&h=180" alt="Image 1" class="column-image">
