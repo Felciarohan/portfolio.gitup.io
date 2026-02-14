@@ -6,7 +6,8 @@ Developed During: Web Development Internship
 
 **📌 Overview**
 
-Developed a fully responsive personal portfolio website to showcase my skills, projects and professional background. The project focuses on clean UI design, structured layout and interactive user experience.
+Developed a fully responsive personal portfolio website to showcase my skills, projects and professional background. 
+The project focuses on clean UI design, structured layout and interactive user experience.
 
 **🚀 Features**
 
