@@ -1,7 +1,9 @@
 **🌐 Personal Portfolio Website**
 
 Tech Stack: HTML5 | CSS3 | JavaScript
+
 Type: Frontend Development Project
+
 Developed During: Web Development Internship
 
 **📌 Overview**
